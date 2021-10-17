@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    int sum=0,i;
+    cout<<"Enter the range of number:";
+    cin>>n;
+    int p=1;
+    for(i=1;i<=n;i++)
+    {
+
+            sum+=p;
+            p=(p*10)+1;
+
+    }
+    cout<<"The sum of the series = "<<sum;
+}
